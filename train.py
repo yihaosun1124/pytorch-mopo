@@ -37,7 +37,7 @@ def get_args():
     # dynamics model's arguments
     parser.add_argument("--n-ensembles", type=int, default=7)
     parser.add_argument("--n-elites", type=int, default=5)
-    parser.add_argument("--reward_penalty-coef", type=float, default=1.0)
+    parser.add_argument("--reward-penalty-coef", type=float, default=1.0)
     parser.add_argument("--rollout-length", type=int, default=5)
     parser.add_argument("--rollout-batch-size", type=int, default=50000)
     parser.add_argument("--rollout-freq", type=int, default=1000)

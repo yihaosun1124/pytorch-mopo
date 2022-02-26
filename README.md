@@ -18,11 +18,11 @@ The performance of model-based RL algorithm greatly depends on the implementatio
 
 ```
 # for hopper-medium-replay-v0 task
-python train.py --env-name "hopper-medium-replay-v0" --rollout-length 5 --reward-penalty-coef 1.0
+python train.py --task "hopper-medium-replay-v0" --rollout-length 5 --reward-penalty-coef 1.0
 # for walker2d-medium-replay-v0 task
-python train.py --env-name "walker2d-medium-replay-v0" --rollout-length 1 --reward-penalty-coef 1.0
+python train.py --task "walker2d-medium-replay-v0" --rollout-length 1 --reward-penalty-coef 1.0
 # for halfcheetah-medium-replay-v0 task
-python train.py --env-name "halfcheetah-medium-replay-v0" --rollout-length 5 --reward-penalty-coef 1.0
+python train.py --task "halfcheetah-medium-replay-v0" --rollout-length 5 --reward-penalty-coef 1.0
 ```
 
 For different mujoco tasks, the only differences of hyperparameters are "rollout-length" and "reward-penalty-coef". Please see the original paper for other tasks' hyperparameters.
