@@ -34,7 +34,15 @@ python plotter.py --root-dir "log" --task "hopper-medium-replay-v0"
 ```
 
 # Reproduced results
-to be added
+All experiments were run for 2 random seeds each and learning curves are smoothed by averaging over a window of 10 epochs.
+
+### hopper-medium-replay-v0
+
+![](hopper-medium-replay.png)
+
+### walker2d-medium-replay-v0
+
+![](walker2d-medium-replay.png)
 
 # Reference
 

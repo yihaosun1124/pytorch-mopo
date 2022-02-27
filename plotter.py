@@ -157,7 +157,7 @@ if __name__ == '__main__':
         '--ylabel', default='episode_reward', help='matplotlib figure ylabel'
     )
     parser.add_argument(
-        '--smooth', type=int, default=60, help='smooth radius of y axis (default: 0)'
+        '--smooth', type=int, default=10, help='smooth radius of y axis (default: 0)'
     )
     parser.add_argument(
         '--colors', default=None, help='colors for different algorithms'
