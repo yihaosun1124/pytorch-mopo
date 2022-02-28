@@ -9,7 +9,7 @@ The performance of model-based RL algorithm greatly depends on the implementatio
 - MuJoCo 2.0
 - Gym 0.22.0
 - D4RL
-- PyTorch
+- PyTorch 1.8+
 - TensorFlow 2.x
 
 # Usage
@@ -43,6 +43,10 @@ All experiments were run for 2 random seeds each and learning curves are smoothe
 ### walker2d-medium-replay-v0
 
 ![](walker2d-medium-replay.png)
+
+### halfcheetah-medium-replay-v0
+
+![](halfcheetah-medium-replay.png)
 
 # Reference
 
