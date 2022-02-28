@@ -38,15 +38,15 @@ All experiments were run for 2 random seeds each and learning curves are smoothe
 
 ### hopper-medium-replay-v0
 
-![](hopper-medium-replay.png)
+![](results/hopper-medium-replay.png)
 
 ### walker2d-medium-replay-v0
 
-![](walker2d-medium-replay.png)
+![](results/walker2d-medium-replay.png)
 
 ### halfcheetah-medium-replay-v0
 
-![](halfcheetah-medium-replay.png)
+![](results/halfcheetah-medium-replay.png)
 
 # Reference
 
